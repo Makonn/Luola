@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="LuolaCSS.css" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet' type='text/css'>
+        <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'>
+        <title>Luola - Nettiarpa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    </head>
+    <body>
+        
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                
+                <img id = "modalLogo" src = "img/Luola2.png" alt = "luolalogo">
+                
+                <p id = "modalInfo" class = "modalInfos">Tervetuloa pelaamaan luolaa! Tehtävänäsi on löytää luolaan kätketyt kolme aarretta sekä voittaa
+                                                         niitä vartioivat viholliset. Apua tähän tehtävään löydät tavaraluettelostasi.
+                </p>
+
+                <p id = "winnings" class = "modalInfos">Voita jopa 15 000 euroa</p>
+
+                <div id ="wrapper">
+                    <button id = "modalButton">Aloita</button>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id = "gameArea">
+        
+            <img id = "luolalogo" src = "img/Luola2.png" alt="Luola logo">
+
+            <div class = "inventory">
+                <img class = "box" id = "hero" src = "img/hero.png" alt = "hero">
+                <div class = "box" id = "inventory1"></div>
+                <div class = "box" id = "inventory2"></div>
+                <div class = "box" id = "inventory3"></div>              
+            </div>
+
+            <p id = "itemInfo" class = "info">Onnea matkaan</p>
+
+            <div class = "row">
+                <div class = "box" id = "box1"></div>
+                <div class = "box" id = "box2"></div>
+                <div class = "box" id = "box3"></div>
+                <div class = "box" id = "box4"></div>
+                <div class = "box" id = "box5"></div>
+                <div class = "box" id = "box6"></div>
+                <div class = "box" id = "box7"></div>
+            </div>
+            <div class = "row">
+                <div class = "box" id = "box8"></div>
+                <div class = "box" id = "box9"></div>
+                <div class = "box" id = "box10"></div>
+                <div class = "box" id = "box11"></div>
+                <div class = "box" id = "box12"></div>
+                <div class = "box" id = "box13"></div>
+                <div class = "box" id = "box14"></div>    
+            </div>
+            <div class = "row">
+                <div class = "box" id = "box15"></div>
+                <div class = "box" id = "box16"></div>
+                <div class = "box" id = "box17"></div>
+                <div class = "box" id = "box18"></div>
+                <div class = "box" id = "box19"></div>
+                <div class = "box" id = "box20"></div>
+                <div class = "box" id = "box21"></div>          
+            </div>
+            <div class = "row">
+                <div class = "box" id = "box22"></div>
+                <div class = "box" id = "box23"></div>
+                <div class = "box" id = "box24"></div>
+                <div class = "box" id = "box25"></div>
+                <div class = "box" id = "box26"></div>
+                <div class = "box" id = "box27"></div>
+                <div class = "box" id = "box28"></div>              
+            </div>
+            <div class = "row">
+                <div class = "box" id = "box29"></div>
+                <div class = "box" id = "box30"></div>
+                <div class = "box" id = "box31"></div>
+                <div class = "box" id = "box32"></div>
+                <div class = "box" id = "box33"></div>
+                <div class = "box" id = "box34"></div>
+                <div class = "box" id = "box35"></div>              
+            </div>
+            <div class = "row">
+                <div class = "box" id = "box36"></div>
+                <div class = "box" id = "box37"></div>
+                <div class = "box" id = "box38"></div>
+                <div class = "box" id = "box39"></div>
+                <div class = "box" id = "box40"></div>
+                <div class = "box" id = "box41"></div>
+                <div class = "box" id = "box42"></div>              
+            </div>
+            <div class = "row">
+                <div class = "box" id = "box43"></div>
+                <div class = "box" id = "box44"></div>
+                <div class = "box" id = "box45"></div>
+                <div class = "box" id = "box46"></div>
+                <div class = "box" id = "box47"></div>
+                <div class = "box" id = "box48"></div>
+                <div class = "box" id = "box49"></div>
+            </div>
+        </div>
+        
+        <p id ="beta">BETA</p>
+        
+        <script src = "LuolaJS.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9.6.2016, 0:23:19
+    Author     : Petja
+*/
+
+body {
+    background-color: #1E1E1E;
+}
+
+#beta{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 100px;
+    color: white;
+    text-align: right;
+    margin-right: 5%;
+    position: absolute; 
+    bottom: 1px;
+    right: 5px;
+}
+
+#gameArea{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333333;
+    width: 750px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 40px 22px rgba(51,51,51,1);
+    -moz-box-shadow: 0px 0px 40px 22px rgba(51,51,51,1);
+    box-shadow: 0px 0px 40px 22px rgba(51,51,51,1);
+}
+
+.inventory {
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero{
+    background-color: #333333;
+}
+
+.row {
+    width: 405px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 1%;
+    background-color: #777777;
+}
+
+#win {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+#luolalogo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    height: 196px;
+    width: 412px;
+}
+
+.img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+.info {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 25px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
+
+ /* The Modal (background) */
+.modal {
+    display: block; /* shown by default */
+    position: absolute; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333333;
+    padding: 20px;
+    border: none;
+    width: 743px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 40px 22px rgba(51,51,51,1);
+    -moz-box-shadow: 0px 0px 40px 22px rgba(51,51,51,1);
+    box-shadow: 0px 0px 40px 22px rgba(51,51,51,1);
+     -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.7s;
+    animation-name: animatetop;
+    animation-duration: 0.7s
+}
+
+#modalButton:hover,
+#modalButton:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalLogo{
+    width: 743px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modalInfos{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 25px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    line-height: 40px;
+}
+
+#wrapper{
+    text-align: center;
+}
+
+#modalButton{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 50px;
+    border-radius: 25px;
+    margin-top: 3%;
+    text-align: center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+#winnings{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 40px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        margin-top: -200%;
+    } 
+    to {
+        margin-top: 0; 
+    }
+}
+
+@keyframes animatetop {
+    from {
+        margin-top: -600px;
+    } 
+    to {
+        margin-top: 0; 
+    }
+}
+
